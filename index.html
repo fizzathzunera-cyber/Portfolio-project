@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+<head>
+    <title>My Portfolio</title>
+</head>
+<body>
+    <h1>Hello, I'm Zunera Fizzath</h1>
+    <p>A BCA Analytics student currently learning about web development.
+        I have basic knowledge of HTML, CSS, and Python. </p>
+
+    <h2>Skills</h2>
+    <p>HTML</p>
+    <p>Python(basics)</p>
+    <p>CSS</p>
+    <p>Git and Github(Learning)</p>
+
+    <h2>Certificates</h2>
+  <p> <a href = "https://www.credly.com/badges/0e6c2551-1958-4dd4-9c7f-d1dab6a636f1/print" > Qlik Data Analytics Certificate</a> </p>
+  <p> <a href = "https://www.credly.com/badges/974e88d5-7d63-4a1d-92e8-93ee81a1a5b5/print" > Qlik Data Literacy Certificate</a>  </p>
+  <p> <a href = "https://www.udemy.com/certificate/UC-4c2b71c6-cc33-41a3-a59c-e35c58882757/">Udemy Advanced Node Js Certificate</a></p>
+  <p> <a href = "https://www.udemy.com/certificate/UC-a2e0ef05-ea06-437c-b467-4b904e5c62f5/">Udemy Git and Github Certificate</a> </p>
+
+  <h3>You can contact me at:</h3>
+  <p><b>Email:</b>fizzathzunera@gmail.com</p>
+  <form method="POST" action="/submit">
+    <input type="text" name="name" placeholder="Your Name" required><br><br>
+    <textarea name="message" placeholder="Your Message"></textarea><br><br>
+    <button type="submit">Send</button>
+    </form>
+</html>
